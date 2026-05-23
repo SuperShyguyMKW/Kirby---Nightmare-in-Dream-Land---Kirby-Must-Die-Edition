@@ -1,8 +1,4 @@
 # Kirby - Nightmare in Dream Land - Kirby Must Die Edition
-
-==================================================
-Kirby - Nightmare in Dream Land - Kirby Must Die Edition
-==================================================
 Author: SuperShyguy MKW
 
 Base ROM:
@@ -149,6 +145,7 @@ IMPORTANT NOTES
 ==================================================
 
 Mr. Shine and Mr. Bright:
+
 - This fight works differently because both bosses share the boss bar.
 - Each one originally had 30 HP.
 - They were first tested with doubled HP, but the final decision was to triple both to 90 HP.
@@ -184,16 +181,16 @@ Kirby damage:
 0001AC54: 00 7A -> 18 20
 
 Boss HP:
-0074C158: 3C 00 -> 78 00   Whispy Woods
-0074B2DC: 3C 00 -> 78 00   Paint Roller
-00748790: 1E 00 -> 5A 00   Mr. Shine / Luna
-007487BC: 1E 00 -> 5A 00   Mr. Bright / Sol
-00749540: 3C 00 -> 96 00   Kracko
-0074B308: 3C 00 -> 78 00   Heavy Mole / Excavadora
-00749514: 3C 00 -> 78 00   Meta Knight
-00748764: 64 00 -> 96 00   King Dedede / DDD
-0074B334: 3C 00 -> 46 00   Nightmare Orb
-0074956C: 3C 00 -> 4D 00   Nightmare
+- 0074C158: 3C 00 -> 78 00   Whispy Woods
+- 0074B2DC: 3C 00 -> 78 00   Paint Roller
+- 00748790: 1E 00 -> 5A 00   Mr. Shine / Luna
+- 007487BC: 1E 00 -> 5A 00   Mr. Bright / Sol
+- 00749540: 3C 00 -> 96 00   Kracko
+- 0074B308: 3C 00 -> 78 00   Heavy Mole / Excavadora
+- 00749514: 3C 00 -> 78 00   Meta Knight
+- 00748764: 64 00 -> 96 00   King Dedede / DDD
+- 0074B334: 3C 00 -> 46 00   Nightmare Orb
+- 0074956C: 3C 00 -> 4D 00   Nightmare
 
 ==================================================
 VERSION NOTE
@@ -203,5 +200,5 @@ This version is designed as a hard mode challenge for experienced players.
 
 Normal mode becomes much harder because Kirby takes heavy damage.
 Extra mode and Meta Knightmare become especially punishing, since the player can die in 1 hit.
-```
+
 
