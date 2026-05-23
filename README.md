@@ -30,11 +30,11 @@ KIRBY DAMAGE MODIFICATION
 ==================================================
 
 Goal:
-- Make Kirby lose 3 health points per normal hit instead of 1 visual health point.
+- Make Kirby lose 3 health points per normal hit instead of 1.
 
 Kirby health system:
 - Full HP: 48 decimal / 30 hex
-- 1 visual health point: 8 decimal / 08 hex
+- 1 health point: 8 decimal / 08 hex
 - Original damage: 8 decimal / 08 hex
 - Modified damage: 24 decimal / 18 hex
 
@@ -64,7 +64,7 @@ Technical explanation:
 Expected result:
 - Full HP: 30 hex
 - After one normal hit: 18 hex
-- Kirby loses 3 visual health points per hit.
+- Kirby loses 3 health points per hit.
 
 ==================================================
 BOSS HP CHANGES
@@ -150,8 +150,8 @@ Mr. Shine and Mr. Bright:
 - Each one originally had 30 HP.
 - They were first tested with doubled HP, but the final decision was to triple both to 90 HP.
 - Final values:
-  - Luna: 1E 00 -> 5A 00
-  - Sol: 1E 00 -> 5A 00
+  - Moon: 1E 00 -> 5A 00
+  - Sun: 1E 00 -> 5A 00
 
 Kracko:
 - Kracko was increased more than most bosses.
@@ -183,10 +183,10 @@ Kirby damage:
 Boss HP:
 - 0074C158: 3C 00 -> 78 00   Whispy Woods
 - 0074B2DC: 3C 00 -> 78 00   Paint Roller
-- 00748790: 1E 00 -> 5A 00   Mr. Shine / Luna
-- 007487BC: 1E 00 -> 5A 00   Mr. Bright / Sol
+- 00748790: 1E 00 -> 5A 00   Mr. Shine / Moon
+- 007487BC: 1E 00 -> 5A 00   Mr. Bright / Sun
 - 00749540: 3C 00 -> 96 00   Kracko
-- 0074B308: 3C 00 -> 78 00   Heavy Mole / Excavadora
+- 0074B308: 3C 00 -> 78 00   Heavy Mole
 - 00749514: 3C 00 -> 78 00   Meta Knight
 - 00748764: 64 00 -> 96 00   King Dedede / DDD
 - 0074B334: 3C 00 -> 46 00   Nightmare Orb
@@ -200,5 +200,4 @@ This version is designed as a hard mode challenge for experienced players.
 
 Normal mode becomes much harder because Kirby takes heavy damage.
 Extra mode and Meta Knightmare become especially punishing, since the player can die in 1 hit.
-
 
